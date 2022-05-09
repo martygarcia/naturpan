@@ -1,0 +1,340 @@
+html {
+	background-image: url(fondo.jpg);
+	background-size: 100% 100%;
+	min-height: 100vh;
+
+	font-family: Comic Sans MS, "Times New Roman", Times, serif;
+}
+
+body {
+	background-color: #F5F2EA;
+	margin-top: 20px;
+	margin-left: 230px;
+	border-radius: 10px;
+	width:65%;
+	height: 34em;
+	color: #333333;
+}
+
+h1 {
+	margin-left: 15px;
+	display: inline-block;
+	width: 90%;
+	height: 148px;
+}
+
+div nav {
+	margin-top: -186px;
+	margin-left: 240px;
+}
+
+div nav ul{
+	background-image: url(menu.jpg);
+	border-radius: 10px;
+	margin-bottom: 5%;
+	width: 90%;
+	height: 148px;
+}
+
+div nav ul li {
+	text-decoration: none;
+	display: inline-block;
+	border: solor 5px black;
+	margin-top: 105px;
+}
+
+div nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 136%;
+	margin-right: 20px;
+	/* margin-left: 30%; */
+}
+
+.info {
+	background: white;
+	border-radius: 10px;/*
+	border: 1px solid brown;	*/
+	width: 68%;
+	height: 320px;
+	margin-left: 245px;
+	margin-top: -20px;
+
+}
+
+h2 {
+	font-size: 150%;
+	margin-left: 20px;
+	padding-top: 30px;
+}
+
+h4 {
+	margin-left: 20px;
+}
+
+main {
+	margin-left: -0.5%;
+	width: 104%;
+}
+
+main div div {
+	margin-left: 20px;
+	padding-top: 7px;
+}
+
+.photo-text {
+	border: 1px black solid;
+	float: right;
+	margin-top: -24%;
+	margin-right: 2%;
+}
+
+.photo-text-flores {
+	margin-top: 2em;
+}
+
+.sello {
+	float: right;
+	margin-top: -5%;
+	margin-right: 8%;
+}
+
+.text {
+	font-size: 14px;
+	width: 70%;
+}
+
+.text-nosotros-2 {
+	font-size: 14px;
+	width: 96%;
+	height: auto;
+}
+
+
+.photo-left {
+	float: left;
+	border-radius: 10px;
+	margin-left: 2%;
+}
+
+.info-nosotros-2 {
+	background: white;
+	border-radius: 10px;/*
+	border: 1px solid brown;	*/
+	width: 68%;
+	height: 325px;
+	margin-top: -2em;
+	margin-left: 245px;
+	padding-top: 5em;
+	padding-bottom: 4em;
+
+}
+
+.body-nosotros {
+	height: 60em;
+}
+
+.text-nosotros-arriba {
+	font-size: 14px;
+}
+
+.text-nosotros-abajo {
+	width: 95%;
+	font-size: 14px;
+	margin-left: 1.4em;
+}
+
+/* PRODUCTOS */
+
+.info-productos {
+	background: white;
+	border-radius: 10px;/*
+	border: 1px solid brown;	*/
+	width: 68%;
+	height: 42em;
+	margin-left: 245px;
+	margin-top: -20px;
+}
+
+
+.photo-text-productos {
+	margin-top: 0.5em;
+	border: none;
+}
+
+.body-productos {
+	height: 56em;
+}
+/* cajas de productos */
+
+.container {
+	border: 1px #999999 solid;
+	height: 8em;
+	margin-bottom: 10px;
+	margin-right: 1em;
+}
+
+.container h3 {
+	margin-top: 0.1em;
+}
+
+.container p {
+	margin: 0.1em;
+}
+
+/* Productos fabricados */
+
+.body-productos-fabricados {
+	height: 138em;
+}
+
+.row-three {
+	display: flex;
+}
+
+.single-border-img {
+	margin-right: 30px;
+	text-align: center;
+}
+
+.single-border-img img {
+	border: #999999 solid 1px;
+}
+
+.single-border-img a {
+	text-decoration: none;
+	color: black;
+}
+
+.row-single {
+	margin-left: -24em;
+}
+
+.h3-productos-fabricados {
+	font-style: normal;
+	margin-left: 1em;
+}
+
+.back-productos {
+	margin-left: 20px;
+	text-decoration: none;
+	color: black;
+}
+
+.back-productos span {
+	color: red;
+}
+
+/* productos eco */
+
+.body-productos-eco {
+	height: 65em;
+}
+
+.info-productos-eco {
+	background: white;
+	border-radius: 10px;/*
+	border: 1px solid brown;	*/
+	width: 68%;
+	height: 53em;
+	margin-left: 245px;
+	margin-top: -20px;
+}
+
+/* Productos gluten */
+
+.body-productos-gluten {
+	height: 50em;
+}
+
+.info-productos-gluten {
+	background: white;
+	border-radius: 10px;/*
+	border: 1px solid brown;	*/
+	width: 68%;
+	height: 36em;
+	margin-left: 245px;
+	margin-top: -20px;
+}
+
+.container-rare-gluten p {
+	margin-top: -0.3em;
+}
+
+/*PRODUCTOS DIETETICA */
+
+.body-productos-dietetica {
+	height: 47em;
+}
+
+.info-productos-dietetica {
+	background: white;
+	border-radius: 10px;/*
+	border: 1px solid brown;	*/
+	width: 68%;
+	height: 33em;
+	margin-left: 245px;
+	margin-top: -20px;
+}
+
+/* ubicacion */
+
+iframe {
+	height: 300px;
+	width: 580px;
+}
+
+.body-ubicacion {
+	height: 46em;
+}
+
+.info-ubicacion {
+	background: white;
+	border-radius: 10px;/*
+	border: 1px solid brown;	*/
+	width: 68%;
+	height: 33em;
+	margin-left: 245px;
+	margin-top: -20px;
+}
+
+.photo-parking img {
+	width: 90px;
+}
+
+/* CONTACTO */
+
+table span {
+	color: red;
+}
+
+.info-contacto {
+	background: white;
+	border-radius: 10px;/*
+	border: 1px solid brown;	*/
+	width: 68%;
+	height: 23em;
+	margin-left: 245px;
+	margin-top: -20px;
+}
+
+.body-contacto {
+	height: 37em;
+}
+
+.red_number {
+	color: red;
+
+}
+
+/* animation menu */
+
+.activa {
+	color: #F9BE7F;
+}
+
+div nav ul li a:hover {
+	color: #7F6476;
+	text-decoration: underline #7F6476;
+}
+
